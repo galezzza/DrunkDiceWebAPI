@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DrunkDice.Domain\DrunkDice.Domain.csproj" />
+    <ProjectReference Include="..\DrunkDice.Infrastructure\DrunkDice.Infrastructure.csproj" />
+    <ProjectReference Include="..\DrunkDice.UseCases\DrunkDice.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>
